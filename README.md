@@ -1,2 +1,22 @@
-# machine-failure-detection
-Machine Learning pipeline for failure detection and fault diagnosis
+# 📊 مشروع الصيانة التنبؤية | Predictive Maintenance Project
+
+## 📝 وصف المشروع (Description)
+هذا المشروع يهدف إلى التنبؤ بأعطال الماكينات قبل وقوعها وتحديد نوع العطل بدقة باستخدام خوارزميات تعلم الآلة.
+
+## 🚀 المميزات (Features)
+* **الكشف الثنائي (Binary Classification):** تحديد ما إذا كانت الماكينة سليمة أم بها عطل بدقة **99%**.
+* **التشخيص المتعدد (Multi-class Classification):** تحديد نوع العطل (طاقة، تآكل، إجهاد...) بدقة **77%**.
+* **واجهة تقرير عربية/إنجليزية:** عرض النتائج بلغة مفهومة للمستخدم النهائي.
+
+## 🛠️ الأدوات المستخدمة (Tech Stack)
+* Python (Pandas, NumPy)
+* Scikit-learn & XGBoost
+* Joblib (للحفظ والتحميل)
+
+## 📁 ملفات الموديلات (Saved Models)
+تم حفظ الموديلات كملفات جاهزة للاستخدام:
+1.  `machine_failure_detector.joblib`
+2.  `failure_type_classifier.joblib`
+
+---
+**💡 ملاحظة:** هذا المشروع هو تمهيد للانتقال إلى تقنيات التعلم العميق (Deep Learning).
