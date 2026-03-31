@@ -67,20 +67,20 @@ This project implements a professional diagnostic pipeline consisting of two spe
 ![Multi-class Confusion Matrix](<  <img width="947" height="767" alt="Confusion_Matrix_Model_2" src="https://github.com/user-attachments/assets/685cfd12-0ab5-467f-bd41-6bac7d9af2be" />
    >)
 
-​🎯 Model Performance: Confusion Matrix (XGBoost)
+​Confusion Matrix
 
-​The Confusion Matrix illustrates the exceptional performance of our model in classifying Normal vs. Failure states:
-​True Negatives (Normal): 1,389 cases were correctly identified as Normal.
-​True Positives (Failure): 1,416 cases were correctly identified as Failure.
-​Minimal Errors: The model only misclassified 39 cases out of 2,844 total samples, demonstrating its high reliability.
+​This matrix visualizes the model's diagnostic accuracy in identifying specific fault types after detection:
+​Class 1 (Highest Accuracy): The model correctly diagnosed 34 instances of this fault type, showing its strong predictive power.
+​Class 0 & 2 (Reliable Diagnosis): Successfully identified 24 and 28 cases respectively, with minimal overlap between categories.
+​Minimal Misclassification: The diagonal trend confirms that the model is highly effective at distinguishing between different failure modes.
+​Diagnostic Depth: This visualization proves the model's ability to provide actionable insights for maintenance by pinpointing the exact fault.
 
-​بالعربي
-:
-​أداء النموذج: مصفوفة الارتباك (XGBoost)
-توضح هذه المصفوفة الكفاءة العالية للنموذج في التمييز بين الحالات الطبيعية وحالات الفشل:
-​النتائج السليمة (Normal): تم تحديد 1,389 حالة طبيعية بشكل صحيح.
-​حالات الفشل (Failure): تم تحديد 1,416 حالة فشل بشكل صحيح.
-​دقة فائقة: أظهر النموذج قدرة استثنائية على التصنيف بأقل نسبة خطأ ممكنة، مما يجعله نموذجاً موثوقاً لاتخاذ القرارات.
+​بالعربي:
+مصفوفة الارتباك لتشخيص الأعطال (Multi-Class)
+​توضح هذه المصفوفة دقة الموديل في تحديد نوع العطل بدقة بعد اكتشافه:
+​الفئة 1: حقق الموديل أعلى دقة بتشخيص 34 حالة بشكل صحيح.
+​الفئات 0 و2: نجح الموديل في تحديد 24 و28 حالة على التوالي، مما يثبت كفاءته في التمييز بين أنواع الأعطال المختلفة.
+​دقة التشخيص: يظهر الرسم البياني قدرة النظام على إعطاء معلومات دقيقة تساعد في عمليات الصيانة وتحديد المشكلة بسرعة.
 
 ![Multi-class Classification Report](<   <img width="591" height="254" alt="Classification_Report_Model_2" src="https://github.com/user-attachments/assets/e09c75ad-89dc-451a-bb35-c9a6c31c31cc" />
   >)
