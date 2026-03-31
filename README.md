@@ -85,19 +85,20 @@ This project implements a professional diagnostic pipeline consisting of two spe
 ![Multi-class Classification Report](<   <img width="591" height="254" alt="Classification_Report_Model_2" src="https://github.com/user-attachments/assets/e09c75ad-89dc-451a-bb35-c9a6c31c31cc" />
   >)
 
-​📈 Detailed Classification Performance
+​Classification Report
 
-​The model's performance was evaluated using a comprehensive classification report, showing near-perfect results across all key metrics:
-​Precision (99%): Out of all instances the model predicted as a certain class, 99% were actually correct.
-​Recall (99%): The model successfully identified 99% of all actual instances in the dataset.
-​F1-Score (0.99): A near-perfect balance between Precision and Recall, proving the model is robust and stable.
-​Overall Accuracy (99%): The model correctly classified 2844 samples with minimal error.
+​This report provides a detailed breakdown of the model's diagnostic performance across all fault categories:
+​Precision (Weighted Avg: 70%): Reflects the model's high reliability in correctly identifying the specific type of fault once detected.
+​Recall (Class 0: 90%): Exceptional ability to capture almost all instances of Class 0 faults, ensuring critical issues are not missed.
+​F1-Score (Overall Stability): The model shows a balanced performance between precision and recall, especially in Class 0 and Class 2, making it a stable diagnostic tool.
+​Accuracy (66%): Given the complexity of distinguishing between three different fault types, this accuracy level provides a strong baseline for automated diagnosis.
 
-​بالعربي
-
-​تقرير التصنيف التفصيلي (Classification Report):
-أظهر النموذج أداءً استثنائياً بدقة تصل إلى 99%؛ حيث نجح في تحقيق توازن شبه مثالي بين جميع المعايير التقنية (Precision, Recall, F1-Score). هذا الرقم يعكس الكفاءة العالية للخوارزمية في التعامل مع البيانات وتصنيفها بدقة فائقة.
-
+​بالعربي:
+تقرير أداء التصنيف (Classification Report)
+​يوضح هذا التقرير كفاءة الموديل في تحليل وتشخيص نوع العطل بدقة:
+​الدقة (Precision): حقق الموديل دقة متوسطة بنسبة 70% في تحديد الفئة الصحيحة للعطل.
+​قدرة الاستدعاء (Recall): تميز الموديل بقدرة فائقة على اكتشاف أعطال الفئة (Class 0) بنسبة 90%.
+​مؤشر F1-Score: يعكس الأداء المتوازن للموديل وقدرته على التعامل مع البيانات المعقدة لكل نوع من أنواع الأعطال.
 ---
 
 ### 🔮 Final Predictions Sample
