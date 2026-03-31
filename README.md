@@ -35,6 +35,22 @@ This project implements a professional diagnostic pipeline consisting of two spe
 #### Performance Evaluation:
 ![Multi-class Confusion Matrix](<  <img width="947" height="767" alt="Confusion_Matrix_Model_2" src="https://github.com/user-attachments/assets/685cfd12-0ab5-467f-bd41-6bac7d9af2be" />
    >)
+
+​🎯 Model Performance: Confusion Matrix (XGBoost)
+
+​The Confusion Matrix illustrates the exceptional performance of our model in classifying Normal vs. Failure states:
+​True Negatives (Normal): 1,389 cases were correctly identified as Normal.
+​True Positives (Failure): 1,416 cases were correctly identified as Failure.
+​Minimal Errors: The model only misclassified 39 cases out of 2,844 total samples, demonstrating its high reliability.
+
+​بالعربي
+:
+​أداء النموذج: مصفوفة الارتباك (XGBoost)
+توضح هذه المصفوفة الكفاءة العالية للنموذج في التمييز بين الحالات الطبيعية وحالات الفشل:
+​النتائج السليمة (Normal): تم تحديد 1,389 حالة طبيعية بشكل صحيح.
+​حالات الفشل (Failure): تم تحديد 1,416 حالة فشل بشكل صحيح.
+​دقة فائقة: أظهر النموذج قدرة استثنائية على التصنيف بأقل نسبة خطأ ممكنة، مما يجعله نموذجاً موثوقاً لاتخاذ القرارات.
+
 ![Multi-class Classification Report](<   <img width="591" height="254" alt="Classification_Report_Model_2" src="https://github.com/user-attachments/assets/e09c75ad-89dc-451a-bb35-c9a6c31c31cc" />
   >)
 
