@@ -54,6 +54,19 @@ This project implements a professional diagnostic pipeline consisting of two spe
 ![Multi-class Classification Report](<   <img width="591" height="254" alt="Classification_Report_Model_2" src="https://github.com/user-attachments/assets/e09c75ad-89dc-451a-bb35-c9a6c31c31cc" />
   >)
 
+​📈 Detailed Classification Performance
+
+​The model's performance was evaluated using a comprehensive classification report, showing near-perfect results across all key metrics:
+​Precision (99%): Out of all instances the model predicted as a certain class, 99% were actually correct.
+​Recall (99%): The model successfully identified 99% of all actual instances in the dataset.
+​F1-Score (0.99): A near-perfect balance between Precision and Recall, proving the model is robust and stable.
+​Overall Accuracy (99%): The model correctly classified 2844 samples with minimal error.
+
+​بالعربي
+
+​تقرير التصنيف التفصيلي (Classification Report):
+أظهر النموذج أداءً استثنائياً بدقة تصل إلى 99%؛ حيث نجح في تحقيق توازن شبه مثالي بين جميع المعايير التقنية (Precision, Recall, F1-Score). هذا الرقم يعكس الكفاءة العالية للخوارزمية في التعامل مع البيانات وتصنيفها بدقة فائقة.
+
 ---
 
 ### 🔮 Final Predictions Sample
