@@ -24,6 +24,23 @@ This project implements a professional diagnostic pipeline consisting of two spe
 #### Performance Evaluation:
 ![Binary Confusion Matrix](<  <img width="835" height="693" alt="Confusion_Matrix_Model_1" src="https://github.com/user-attachments/assets/13677f3c-130d-4e33-a4f4-ea57e63636a7" />
    >)
+
+​🎯 Model Performance: Confusion Matrix (XGBoost)
+
+​The Confusion Matrix illustrates the exceptional performance of our model in classifying Normal vs. Failure states:
+​True Negatives (Normal): 1,389 cases were correctly identified as Normal.
+​True Positives (Failure): 1,416 cases were correctly identified as Failure.
+​Minimal Errors: The model only misclassified 39 cases out of 2,844 total samples, demonstrating its high reliability.
+
+​بالعربي
+
+​أداء النموذج: مصفوفة الارتباك (XGBoost)
+توضح هذه المصفوفة الكفاءة العالية للنموذج في التمييز بين الحالات الطبيعية وحالات الفشل:
+​النتائج السليمة (Normal): تم تحديد 1,389 حالة طبيعية بشكل صحيح.
+​حالات الفشل (Failure): تم تحديد 1,416 حالة فشل بشكل صحيح.
+​دقة فائقة: أظهر النموذج قدرة استثنائية على التصنيف بأقل نسبة خطأ ممكنة، مما يجعله نموذجاً موثوقاً لاتخاذ القرارات.
+
+
 ![Binary Classification Report](<   <img width="551" height="244" alt="Classification_Report_Model_1" src="https://github.com/user-attachments/assets/1f66c2a4-6ab7-48fd-a51d-2f883a8d4999" />
   >)
 
@@ -36,7 +53,7 @@ This project implements a professional diagnostic pipeline consisting of two spe
 ​Overall Accuracy (99%): The model correctly classified 2844 samples with minimal error.
 
 ​بالعربي
-:
+
 ​تقرير التصنيف التفصيلي (Classification Report):
 أظهر النموذج أداءً استثنائياً بدقة تصل إلى 99%؛ حيث نجح في تحقيق توازن شبه مثالي بين جميع المعايير التقنية (Precision, Recall, F1-Score). هذا الرقم يعكس الكفاءة العالية للخوارزمية في التعامل مع البيانات وتصنيفها بدقة فائقة.
 
