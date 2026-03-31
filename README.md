@@ -124,7 +124,9 @@ A snapshot of the end-to-end system predictions on unseen data.
 ​كفاءة الموديلات المزدوجة:
 ​دقة اكتشاف الأعطال: وصلت إلى 100% في العينات المعروضة.
 ​دقة تحديد النوع: وصلت إلى 60%، مما يعكس قدرة الموديل على التعامل مع أنواع الأعطال المعقدة والمتداخلة.
-
+👤 Author | صاحب المشروع
+​Mohamed Belal
+​AI & Data Science Specialist.
 
 
 
