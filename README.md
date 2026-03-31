@@ -106,6 +106,25 @@ A snapshot of the end-to-end system predictions on unseen data.
 
 ![Final Predictions](<   <img width="996" height="710" alt="Final_Predicted_all_Model" src="https://github.com/user-attachments/assets/4bad91d8-9233-4634-b8ab-7cb229ee50fd" />
   >)
+​🛠️ Automated Diagnostic Report: Sample Testing
+
+​This section demonstrates the system's end-to-end performance on specific test samples, showcasing the seamless transition from fault detection to diagnosis:
+​100% Detection Success (Phase 1): In all showcased samples, the first model accurately identified the presence of a "Failure Detected" status, matching the ground truth perfectly.
+​Detailed Diagnosis (Phase 2): The second model provided specific failure type predictions (e.g., Power Failure / PWF), proving its utility in providing actionable maintenance data.
+​Dual-Model Validation:
+​Phase 1 Accuracy (Fault Detection): Maintained at 100% for these test cases.
+​Phase 2 Accuracy (Type Diagnosis): Achieved 60% in these specific complex scenarios.
+​Operational Integrity: The output shows that even when a diagnosis is complex, the initial detection remains flawless, ensuring no critical issues are overlooked.
+
+​بالعربي:
+تقرير الفحص الآلي للعينات (Sample Testing)
+​يوضح هذا القسم أداء النظام المتكامل عند فحص عينات حقيقية، وكيفية انتقال العمل من مرحلة الاكتشاف إلى مرحلة التشخيص:
+​نجاح الاكتشاف بنسبة 100%: أظهر الموديل الأول دقة كاملة في اكتشاف وجود العطل (Failure Detected) في جميع العينات المعروضة، وهو ما يتطابق تماماً مع الحالة الفعلية.
+​دقة التشخيص النوعي: نجح الموديل الثاني في تحديد نوع العطل (مثل Power Failure / PWF)، مما يوفر بيانات تشغيلية قيمة لفرق الصيانة.
+​كفاءة الموديلات المزدوجة:
+​دقة اكتشاف الأعطال: وصلت إلى 100% في العينات المعروضة.
+​دقة تحديد النوع: وصلت إلى 60%، مما يعكس قدرة الموديل على التعامل مع أنواع الأعطال المعقدة والمتداخلة.
+
 
 
 
@@ -114,10 +133,6 @@ A snapshot of the end-to-end system predictions on unseen data.
 * Scikit-learn & XGBoost
 * Joblib (للحفظ والتحميل)
 
-## 📁 ملفات الموديلات (Saved Models)
-تم حفظ الموديلات كملفات جاهزة للاستخدام:
-1.  `machine_failure_detector.joblib`
-2.  `failure_type_classifier.joblib`
 
 ---
 **💡 ملاحظة:** هذا المشروع هو تمهيد للانتقال إلى تقنيات التعلم العميق (Deep Learning).
