@@ -75,7 +75,8 @@ This project implements a professional diagnostic pipeline consisting of two spe
 ​Minimal Misclassification: The diagonal trend confirms that the model is highly effective at distinguishing between different failure modes.
 ​Diagnostic Depth: This visualization proves the model's ability to provide actionable insights for maintenance by pinpointing the exact fault.
 
-​بالعربي:
+​بالعربي
+
 مصفوفة الارتباك لتشخيص الأعطال (Multi-Class)
 ​توضح هذه المصفوفة دقة الموديل في تحديد نوع العطل بدقة بعد اكتشافه:
 ​الفئة 1: حقق الموديل أعلى دقة بتشخيص 34 حالة بشكل صحيح.
@@ -93,12 +94,14 @@ This project implements a professional diagnostic pipeline consisting of two spe
 ​F1-Score (Overall Stability): The model shows a balanced performance between precision and recall, especially in Class 0 and Class 2, making it a stable diagnostic tool.
 ​Accuracy (66%): Given the complexity of distinguishing between three different fault types, this accuracy level provides a strong baseline for automated diagnosis.
 
-​بالعربي:
+​بالعربي
+
 تقرير أداء التصنيف (Classification Report)
 ​يوضح هذا التقرير كفاءة الموديل في تحليل وتشخيص نوع العطل بدقة:
 ​الدقة (Precision): حقق الموديل دقة متوسطة بنسبة 70% في تحديد الفئة الصحيحة للعطل.
 ​قدرة الاستدعاء (Recall): تميز الموديل بقدرة فائقة على اكتشاف أعطال الفئة (Class 0) بنسبة 90%.
-​مؤشر F1-Score: يعكس الأداء المتوازن للموديل وقدرته على التعامل مع البيانات المعقدة لكل نوع من أنواع الأعطال.
+​مؤشر F1-Score: يعكس الأداء المتوازن للموديل وقدرته على التعامل مع البيانات المعقدة لكل نوع من أنواع الأعطال
+
 ---
 
 ### 🔮 Final Predictions Sample
@@ -116,14 +119,16 @@ A snapshot of the end-to-end system predictions on unseen data.
 ​Phase 2 Accuracy (Type Diagnosis): Achieved 60% in these specific complex scenarios.
 ​Operational Integrity: The output shows that even when a diagnosis is complex, the initial detection remains flawless, ensuring no critical issues are overlooked.
 
-​بالعربي:
+​بالعربي
+
 تقرير الفحص الآلي للعينات (Sample Testing)
 ​يوضح هذا القسم أداء النظام المتكامل عند فحص عينات حقيقية، وكيفية انتقال العمل من مرحلة الاكتشاف إلى مرحلة التشخيص:
 ​نجاح الاكتشاف بنسبة 100%: أظهر الموديل الأول دقة كاملة في اكتشاف وجود العطل (Failure Detected) في جميع العينات المعروضة، وهو ما يتطابق تماماً مع الحالة الفعلية.
 ​دقة التشخيص النوعي: نجح الموديل الثاني في تحديد نوع العطل (مثل Power Failure / PWF)، مما يوفر بيانات تشغيلية قيمة لفرق الصيانة.
 ​كفاءة الموديلات المزدوجة:
 ​دقة اكتشاف الأعطال: وصلت إلى 100% في العينات المعروضة.
-​دقة تحديد النوع: وصلت إلى 60%، مما يعكس قدرة الموديل على التعامل مع أنواع الأعطال المعقدة والمتداخلة.
+​دقة تحديد النوع: وصلت إلى 60%، مما يعكس قدرة الموديل على التعامل مع أنواع الأعطال المعقدة والمتداخلة
+
 👤 Author | صاحب المشروع
 ​Mohamed Belal
 ​AI & Data Science Specialist.
