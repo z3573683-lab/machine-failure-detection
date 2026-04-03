@@ -130,11 +130,6 @@ A snapshot of the end-to-end system predictions on unseen data.
 ​دقة تحديد النوع: وصلت إلى 60%، مما يعكس قدرة الموديل على التعامل مع أنواع الأعطال المعقدة والمتداخلة
 
 
-## 👤 Author
-**[MOHAMED BELAL]** *Deep Learning & Data Engineering Enthusiast*
-
-MY PHONE [01018689118]
-
 
 
 ## 🛠️ الأدوات المستخدمة (Tech Stack)
@@ -145,3 +140,10 @@ MY PHONE [01018689118]
 
 ---
 **💡 ملاحظة:** هذا المشروع هو تمهيد للانتقال إلى تقنيات التعلم العميق (Deep Learning).
+
+## 👤 Author
+**[MOHAMED BELAL]** *Deep Learning & Data Engineering Enthusiast*
+
+MY PHONE [01018689118]
+
+
